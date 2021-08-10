@@ -688,6 +688,13 @@ section {
   padding: 120px 0;
 }
 
+.cta2 h2 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
 .cta2 h3 {
   color: #fff;
   font-size: 28px;
