@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: rgba(55, 64, 85, 0.9);
+  /*background: rgba(55, 64, 85, 0.9);*/
+  background: rgba(255, 193, 7, 0.9);
 }
 
 #header.header-transparent {
@@ -559,8 +560,10 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  height: 300px;
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 70px 20px 70px 20px;
+  margin: 10px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
@@ -683,7 +686,7 @@ section {
 # Cta4
 --------------------------------------------------------------*/
 .cta4 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/cta-bg4.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/cta-bg4.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -691,13 +694,7 @@ section {
 .cta4 h2 {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.cta4 h3 {
-  color: #fff;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -740,20 +737,36 @@ section {
 /*--------------------------------------------------------------
 # Cta3
 --------------------------------------------------------------*/
-.cta-bg3 {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/cta-bg3.jpg") center;
-  /*background-size: cover;*/
-  padding: 180px 0;
+.cta3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/cta-bg3.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
 }
 
 .cta3 h2 {
   font-family: "Poppins", sans-serif;
-  color: #000;
-  font-size: 28px;
+  color: #fff;
+  font-size: 36px;
   font-weight: 700;
 }
+
 .cta3 p {
-  color: #000;
+  color: #fff;
+}
+
+.cta3 .cta3-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  background: #009961;
+  color: #fff;
+  border-radius: 50px;
 }
 
 @media (max-width: 1024px) {
@@ -773,7 +786,7 @@ section {
 # Cta2
 --------------------------------------------------------------*/
 .cta2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/cta-bg2.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/cta-bg2.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -781,13 +794,7 @@ section {
 .cta2 h2 {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.cta2 h3 {
-  color: #fff;
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -835,12 +842,6 @@ section {
   background: #414c64;
   background-size: cover;
   padding: 60px 0;
-}
-
-.cta h3 {
-  color: #fff;
-  font-size: 28px;
-  font-weight: 700;
 }
 
 .cta p {
