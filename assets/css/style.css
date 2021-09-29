@@ -914,10 +914,15 @@ section {
   top: 10px;
 }
 
+.testimonials .testimonial-item costom-height {
+  height: 500px;
+}
+
 .testimonials .testimonial-item p {
+  height: 100px;
   font-style: italic;
   margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 20px 40px 20px;
   background: #fafafc;
   position: relative;
   border-radius: 6px;
