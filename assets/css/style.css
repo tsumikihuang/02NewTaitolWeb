@@ -66,9 +66,8 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
-  /*background: rgba(55, 64, 85, 0.9);*/
-  background: rgba(255, 193, 7, 0.9);
+  padding: 15px 0;
+  background: rgba(55, 64, 85, 0.9);
 }
 
 #header.header-transparent {
@@ -302,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 60vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
@@ -367,9 +366,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 384px) {
   #hero {
-    height: 100vh;
+    height: 500vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -385,7 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 .section-bg {
@@ -536,6 +535,11 @@ section {
   color: #848484;
 }
 
+.about-page p {
+  font-size: 24px;
+  color: #848484;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -560,9 +564,9 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  height: 300px;
+  height: 200px;
   text-align: center;
-  padding: 70px 20px 70px 20px;
+  padding: 10px 20px 10px 20px;
   margin: 10px;
   transition: all ease-in-out 0.3s;
   background: #fff;
@@ -712,13 +716,16 @@ section {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  background: #009961;
+  border: 2px solid #ffc107;
+  /*background: #009961;*/
+  /*background: #ffc107;*/
+  font-weight: bold;
   color: #fff;
   border-radius: 50px;
 }
 
 .cta4 .cta4-btn:hover {
-  background: #00b371;
+  background: #ffc107;
 }
 
 @media (max-width: 1024px) {
@@ -764,9 +771,16 @@ section {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  background: #009961;
+  border: 2px solid #ffc107;
+  /*background: #009961;*/
+  /*background: #ffc107;*/
+  font-weight: bold;
   color: #fff;
   border-radius: 50px;
+}
+
+.cta3 .cta3-btn:hover {
+  background: #ffc107;
 }
 
 @media (max-width: 1024px) {
@@ -812,13 +826,16 @@ section {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  background: #009961;
+  border: 2px solid #ffc107;
+  /*background: #009961;*/
+  /*background: #ffc107;*/
+  font-weight: bold;
   color: #fff;
   border-radius: 50px;
 }
 
 .cta2 .cta2-btn:hover {
-  background: #00b371;
+  background: #ffc107;
 }
 
 @media (max-width: 1024px) {
