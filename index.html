@@ -46,23 +46,31 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">首頁</a></li>
+		<li class="dropdown"><a href="index.html"><span>首頁</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                  <li><a href="#services">服務項目</a></li>
+                  <li><a href="#job">徵才資訊</a></li>
+                  <li><a href="#spot">服務據點</a></li>
+                  <li><a href="#QA">常見問答</a></li>
+                  <li><a href="#contact">連繫我們</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="about.html">關於我們</a></li>
-          <li><a class="nav-link scrollto" href="#services">服務項目</a></li>
           <li><a class="nav-link scrollto" href="#team">實績案例</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">儀器介紹</a></li>
-          <li><a class="nav-link scrollto" href="#job">徵才資訊</a></li>
-          <li><a class="nav-link scrollto" href="#QA">證照/獎狀</a></li>
-          <li><a class="nav-link scrollto" href="#QA">法規/新知</a></li>
+          <li><a class="nav-link scrollto" href="company.html">公司資料</a></li>
+          <li><a class="nav-link scrollto" href="#">證照/獎狀</a></li>
+          <li><a class="nav-link scrollto" href="#">法規條款</a></li>
+          <li><a class="nav-link scrollto" href="#">文章新知</a></li>
           <li><a class="nav-link scrollto" href="event.html">活動紀錄</a></li>
-          <li class="dropdown"><a href="#"><span>語言</span> <i class="bi bi-chevron-down"></i></a>
+          <!--<li class="dropdown"><a href="#"><span>語言</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
                   <li><a href="#">繁體中文</a></li>
                   <li><a href="#">简体中文</a></li>
                   <li><a href="#">English</a></li>
                   <li><a href="#">日本語</a></li>
             </ul>
-          </li>
+          </li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -71,20 +79,30 @@
   </header><!-- End Header -->
   
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container position-relative">
-      <h1>
-	    <div class="par">
-			<div class="show">為您建造智能宮殿
-				<div class="hover-show">為您建造智能<c style="color:#ffc107;">供電</c></div>
-			</div>
-		</div>
-	  </h1>
-      <h2><c style="color:#ffc107;">技術</c>　效率　<c style="color:#ffc107;">服務</c></h2>
-      <h2>誠懇　<c style="color:#ffc107;">勤快</c>　確實</h2>
-      <!--<h2>創新服務　　優良品質　　如期完工　　顧客至上</h2>-->
-      <!--<a href="#contact" class="btn-get-started scrollto">聯繫專人</a>-->
+  <section id="hero" class="d-flex  ">
+    
+	<!--<div class="container position-relative justify-content-center align-items-center">-->
+	<div class="container position-relative">
+      <div>
+		  <h1>為您建造智能宮殿而努力
+			<!--<div class="par">
+				<div class="show">為您建造智能宮殿而努力
+					<div class="hover-show">為您建造智能<c style="color:#ffc107;">供電</c>而努力</div>
+				</div>
+			</div>-->
+		  </h1>
+	  </div>
+	  <table style="width:100%;height:80%;">
+	    <tr>
+		  <td  style="text-align: right; vertical-text-align: bottom;">
+			  <h2><c style="color:#ffc107;">技術</c>　效率　<c style="color:#ffc107;">服務</c><br>
+			  誠懇　<c style="color:#ffc107;">勤快</c>　確實</h2>
+		  </td >
+	    </tr>
+	  </table>
     </div>
+	
+	
   </section><!-- End Hero -->
 
   <main id="main">
@@ -95,10 +113,10 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-lg-4">
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-7 pt-4 pt-lg-0">
+          <div class="col-lg-8 pt-4 pt-lg-0">
             <h3>台拓企業</h3>
             <p>
 				★ 創立於1993年<br/>
@@ -106,7 +124,7 @@
 				★ 全面整合廠房營建、機電、水電、消防、空調、能源工程技術統包(E.P.C.)<br/>
 				★ 相關技術能力證照齊備<br/>
 				★ 提供電費分析及諮詢<br/>
-				★ 全天緊急搶修待命，備品倉儲庫存充足<br/><br/>
+				★ 全天緊急搶修待命，備品倉儲庫存充足<br/>
 				成立各營建、機電、水電、消防、空調、能源工程及節能之關係企業有 :
 			</p>
 				
@@ -468,14 +486,15 @@
     </section><!-- End Testimonials Section -->
 	
 
-        <div class="section-title">
-          <h2>服務據點</h2>
-        </div>
 
 	<!-- ======= Cta2 Section ======= -->
+	<div id="spot" class="section-title">
+          <h2>服務據點</h2>
+        </div>
+		
     <section id="cta2" class="cta2">
       <div class="container">
-
+		
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
             <h2>中壢營運總部</h2>
@@ -1001,57 +1020,48 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
-
         <div class="section-title">
           <h2>連繫我們</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="info-box">
-                  <i class="bx bx-map"></i>
-                  <h3>地址</h3>
-                  <p>桃園市中壢區高鐵南路三段655號</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="info-box mt-4">
-                  <i class="bx bx-envelope"></i>
-                  <h3>信箱</h3>
-                  <p>service@taitol.com.tw</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="info-box mt-4">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>電話</h3>
-                  <p>03 4259 595</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="info-box mt-4">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>傳真</h3>
-                  <p>(03)2804999</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-		  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3616.312608723568!2d121.18825!3d24.9894915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823e2290aea1f%3A0x6f9c650706cb76d8!2z5Y-w5ouT5qmf6Zu76aGn5ZWP5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1629785830798!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="row justify-content-center ">
+		  <div class="col-md-2">
+			<div class="info-box mt-4">
+			  <i class="bx bx-phone-call"></i>
+			  <h3>電話</h3>
+			  <p>03 4259 595</p>
+			</div>
 		  </div>
-
-        </div>
-
+		  <div class="col-md-2">
+			<div class="info-box mt-4">
+			  <i class="bx bx-envelope"></i>
+			  <h3>信箱</h3>
+			  <p>service@taitol.com.tw</p>
+			</div>
+		  </div>
+		  <div class="col-md-2">
+			<div class="info-box mt-4">
+			  <i class="bx bx-phone-call"></i>
+			  <h3>傳真</h3>
+			  <p>03 2804 999</p>
+			</div>
+		  </div>
+		</div><br>
+		<div class="row">
+		  <div class="col-md-4">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3616.312608723568!2d121.18825!3d24.9894915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823e2290aea1f%3A0x6f9c650706cb76d8!2z5Y-w5ouT5qmf6Zu76aGn5ZWP5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1629785830798!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		  </div>
+		  <div class="col-md-4">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.593680255864!2d120.89218411204727!3d24.70649065130755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469b36d3aef7edd%3A0x47150c5c79949ce2!2z6ZuE5bGV54ef6YCg6ZaL55m85pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1675232004862!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		  </div>
+		  <div class="col-md-4">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.9753716065943!2d121.07833711205093!3d24.89882169362726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683bbc1593ff63%3A0x70c87d5ffb8ab67e!2z5paw5ouT5qmf6Zu75bel56iL6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1675232709190!5m2!1szh-TW!2stw" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		  </div>
+		</div>
       </div>
     </section><!-- End Contact Section -->
+
+
+	
 
   </main><!-- End #main -->
 
@@ -1143,6 +1153,7 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="fb d-flex align-items-center justify-content-center"><i class="bx bxl-facebook"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

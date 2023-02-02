@@ -35,6 +35,33 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
+  bottom: 65px;
+  z-index: 996;
+  background: #ffc107;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #ffa20b;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fb {
+  position: fixed;
+  right: 15px;
   bottom: 15px;
   z-index: 996;
   background: #ffc107;
@@ -44,21 +71,17 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
 }
 
-.back-to-top i {
+.fb i {
   font-size: 28px;
   color: #fff;
   line-height: 0;
 }
 
-.back-to-top:hover {
-  background: #ffcb30;
+.fb:hover {
+  background: #ffa20b;
   color: #fff;
 }
 
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -318,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  text-align: center;
+  /*text-align: center;*/
   padding-top: 50px;
 }
 
@@ -329,8 +352,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0;
-  font-size: 48px;
+  margin: 58px;
+  font-size: 58px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -338,15 +361,19 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #eee;
-  margin: 10px 0 0 0;
-  font-size: 30px;
+  /*margin: 48px;*/
+  font-size: 48px;
+  /*font-weight: bold;*/
+  line-height: 80px;
+  /*height:400px;*/
+
 }
 
 
 #hero .par {
   width:600px;
   height:48px;
-  margin:48px auto;
+  /*margin:48px auto;*/
   font-size:48px;
   line-height:48px;
   overflow:hidden;
@@ -411,7 +438,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .section-title h2 {
@@ -435,7 +462,7 @@ section {
 }
 
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 20px;
   font-size: 17px;
   color: #848484;
 }
@@ -549,12 +576,13 @@ section {
 }
 
 .about p {
-  font-size: 18px;
-  color: #848484;
+  font-size: 20px;
+  /*color: #848484;*/
+  color:#444444;
 }
 
 .about-page p {
-  font-size: 24px;
+  font-size: 20px;
   color: #848484;
 }
 
